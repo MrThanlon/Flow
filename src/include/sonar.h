@@ -46,7 +46,8 @@ void sonar_config(void);
 /**
   * @brief  Sonar interrupt handler
   */
-void UART4_IRQHandler(void);
+//void UART4_IRQHandler(void);
+void EXTI15_10_IRQHandler (void);
 
 /**
   * @brief  Triggers the sonar to measure the next value

@@ -174,6 +174,8 @@ set(PERIPH_SRC
     src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c
     src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c
     src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c
+    src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c
+    src/lib/stm32/st/v1.0.2/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c
     src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_core.c
     src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd_int.c
     src/lib/stm32/st/v1.0.2/STM32_USB_OTG_Driver/src/usb_dcd.c
