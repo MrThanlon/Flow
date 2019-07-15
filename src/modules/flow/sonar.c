@@ -91,7 +91,8 @@ bool sonar_valid = false;				/**< the mode of all sonar measurements */
   * see datasheet for more info
   */
 void sonar_trigger(){
-	// delay
+	GPIO_SetBits(GPIOE, GPIO_Pin_8);
+	// delay 10 us
 	for(int i = 0; i < 10; i++)
             for(int j = 0; j < 60; j++);
 	
